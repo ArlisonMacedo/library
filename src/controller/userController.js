@@ -23,6 +23,6 @@ module.exports = {
             code
         })
 
-        res.status(201).send();
+        res.json({code});
     }
 }
